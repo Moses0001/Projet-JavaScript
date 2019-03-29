@@ -1,0 +1,191 @@
+/* GENERALE */
+*
+{
+	margin: 0 ;
+	padding: 0;
+}
+body
+{
+	font-family: Arial sans-serif;
+	font-size: 16px;
+}
+h1
+{
+	font-family:Brush Script MT;
+	font-size:50px;
+	
+}
+h2
+{
+	font-size:55px;
+	color:black;
+}
+h3
+{
+	font-size: 35;
+	color: Black ;
+}
+.wrapper
+{
+	width: 990px;
+	margin: 0 auto ;
+	padding: 0 10px;
+}
+/* header */
+header
+{
+	height: 120px;
+	background-color: #444;
+}
+header h1
+{
+	float: left;
+	margin-top:31px;
+	margin-left: 20px;
+	color:white;
+}
+header nav 
+{
+	float: right;
+	margin-top: 50px;
+}
+header nav li
+{
+	float: left;
+	display: inline-block;
+	
+}
+header nav li a 
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	color: white;
+	text-decoration: none;
+	margin-left: 20px
+}
+nav ul li a:hover
+{
+	color: black;
+}
+
+/* home*/
+#home
+{
+	height: 500px;
+	background:url('images/plat2.jpg') center;
+	position:relative;
+	background-size:cover;
+	width:100%;
+
+}
+
+	
+#home h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+	margin-bottom: 20px;   
+	color: white;
+}
+#home a
+{
+	text-decoration:none;
+}
+.button
+{
+	display: block;
+	width: 120px;
+	height: 50px;
+	border:4px solid white;	
+	font-size:20px;
+	margin: 0 auto ;
+	line-height: 50px;
+	text-align: center;
+	
+	
+}
+.button
+{
+	color: #fff;
+	background-color:none;
+	padding: 6px 20px;
+	border-radius: 	3px;
+	line-height: 50px;
+	margin-bottom:20px;
+	border-radius: 3px ;
+}
+.button:hover
+{
+	background: #444;
+}
+.contact
+{ 
+width:35px;
+height:35px;
+}
+#contact .wrapper   h3
+{
+	text-align:center;
+	 border-bottom:  1px solid #02b8dd;
+}
+#contact .wrapper p 
+{
+	text-align:center;
+}
+.part1
+{
+	float:left;
+}
+footer
+{
+	height:150px;
+	background: #444;
+	margin-top:200px;
+}
+footer h1
+{
+float: left;
+color: white;
+margin-bottom: 10px;
+margin-top: 50px;
+text-align:center ;
+}
+footer ul li
+{
+	float: right;
+	display: inline-block;
+	margin-top: 60px;
+	font-size: 24px;
+}
+footer div
+{
+	color: white;
+}
+footer ul li b
+{
+	font-weight: bold;
+	margin-right: 20px;
+	text-decoration: none;
+	margin-left: 20px
+}
+
+.localisation
+{
+	width:25px;
+	height:25px;
+}
+.gmail
+{
+	width:25px;
+	 height:25px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 133px;
+	margin-top: 15px;
+}

@@ -1,0 +1,19 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+ nav 
+ {
+	 height: 120px;
+	background-color: #444;
+	margin-bottom: 20px;
+ }
+ 
+body {
+  padding-top: 0;
+}
+.button:hover 
+{
+	background: #444;
+}
